@@ -1,0 +1,104 @@
+/****************************************** FRONTEND STYLES ***********************************************************/
+body {
+  background: url("/../templates/jblank/images/background.webp");
+  font-family: "Comic Sans MS" !important; }
+
+.container {
+  background-color: #FFFFFF; }
+
+/** header **/
+@media screen and (max-width: 576px) {
+  .header .container {
+    background-color: #f3f1f1; } }
+.logo {
+  width: 100%; }
+
+.navbar {
+  padding-top: .4rem !important;
+  padding-bottom: .4rem !important; }
+  .navbar a {
+    color: #000; }
+  .navbar a:hover, .navbar li:active {
+    color: #fff;
+    background: #F58BAB;
+    text-decoration: none; }
+  @media screen and (max-width: 576px) {
+    .navbar a:hover, .navbar li:active {
+      color: #000;
+      background-color: #ccc;
+      text-decoration: none; } }
+
+.navbar-collapse {
+  background: url(/../templates/jblank/images/top_menu_bg.png) repeat-x;
+  height: 52px; }
+  @media screen and (max-width: 576px) {
+    .navbar-collapse {
+      background-color: #f3f1f1;
+      z-index: 10;
+      background-image: none;
+      height: 0; } }
+
+.navbar-nav {
+  height: 38px; }
+  @media screen and (max-width: 576px) {
+    .navbar-nav {
+      height: auto;
+      background-color: #f3f1f1; } }
+
+.nav-item a {
+  padding: .4rem .5rem !important; }
+
+.menu-style {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: aliceblue !important; }
+
+/** main **/
+.slider {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.right-menu .moduletable {
+  margin-bottom: 10px;
+  float: right;
+  width: 100%; }
+  .right-menu .moduletable h3 {
+    color: #fff;
+    background-color: #f58bab;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 0;
+    padding-bottom: 0.3rem;
+    text-align: center; }
+  .right-menu .moduletable .custom {
+    padding-left: 10px;
+    padding-bottom: 1px;
+    background-color: #f3f3f3;
+    border-radius: 0 0 15px 15px; }
+    .right-menu .moduletable .custom img {
+      width: 100%;
+      padding: 10px 0; }
+
+/** footer **/
+.footer {
+  margin: 0px auto;
+  text-align: left;
+  margin-bottom: 3px; }
+  .footer .container {
+    background: #FDBED1; }
+  .footer .moduletable {
+    padding-top: 9px; }
+
+/** foto **/
+.thumb img {
+  -webkit-filter: grayscale(0);
+  filter: none;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px; }
+
+.thumb img:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1); }
+
+.thumb {
+  padding: 5px; }
